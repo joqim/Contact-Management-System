@@ -30,7 +30,7 @@ const App = ({contacts, addContact, deleteContact, fetchContacts, editContact}) 
     // fetch(url)
     //  .then(resp => resp.json())
     //  .then(data => this.setState())
-  },[])
+  },[]);
 
   const onCollapse = isCollapsed => {
     setCollapsed(isCollapsed);
