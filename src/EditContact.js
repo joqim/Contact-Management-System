@@ -126,6 +126,6 @@ EditDrawer.propTypes = {
   initialValues: propTypes.object.isRequired,
   mode: propTypes.oneOf(['add', 'edit']),
   handleEditOnFinish: propTypes.func.isRequired
-}
+};
 
 export default EditDrawer;
